@@ -1,0 +1,50 @@
+html, body {
+  background: #5C258D;
+  background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
+  background: linear-gradient(to right, #4389A2, #5C258D);
+  min-width: 500px;
+  margin-top: 100px;
+}
+
+#citation {
+  font-size: 2em;
+  font-family: 'Satisfy', curve;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#citation:before {
+    content: open-quote;
+}
+
+#citation:after {
+    content: close-quote;
+}
+
+#auteur {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+}
+
+#nouveau {
+  background: #ff9966;
+  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#debut {
+  background: #ff9966;
+  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
