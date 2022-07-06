@@ -36,6 +36,8 @@ btn.addEventListener('click', ()=> {
     if (suivant >= citations.length){
         txCitation.textContent = 'Désolé, nous n\'avons plus de citations pour le moment';
         auteurCitation.textContent = 'L\'équide de DEV !! ';
+        txCitation.style.color = 'red';
+        auteurCitation.style.color = 'white';
     }
     suivant++;
     txCitation.textContent = citations[suivant][0];
