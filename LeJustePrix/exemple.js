@@ -23,6 +23,7 @@ function verifier(nchoisi){
     }else {
         instruction.textContent ='tentative : '+ coups + ', vous avez choisi le nombre : ' + nbchoisi + ', c\'est GAGNE !!'
         instruction.className ='instruction fini';
+        input.disabled = true;
     }
 
     document.querySelector('#instructions').prepend(instruction);
