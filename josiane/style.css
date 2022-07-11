@@ -1,0 +1,21 @@
+#enTete{
+    size: 3em;
+    background: #e6b400;
+	background: -webkit-linear-gradient(to right, rgb(207, 194, 127), #07758e);
+	background: linear-gradient(to right, rgb(207, 194, 127), #07758e);
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#enTete img{
+    margin: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#menu{
+    padding: 30px;
+    background: rgb(207, 194, 127);
+    border: 2px solid #07758e ;
+}
