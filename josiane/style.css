@@ -16,6 +16,8 @@
 
 #menu{
     padding: 30px;
-    background: rgb(207, 194, 127);
-    border: 2px solid #07758e ;
+    background: rgb(1, 0, 0);
+}
+body{
+    background-color: rgba(255, 247, 205, 0.128);
 }
