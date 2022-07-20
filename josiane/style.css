@@ -1,11 +1,26 @@
 #enTete{
-    size: 3em;
-    background: #e6b400;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
 	background: -webkit-linear-gradient(to right, rgb(207, 194, 127), #07758e);
 	background: linear-gradient(to right, rgb(207, 194, 127), #07758e);
-    font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+}
+#enTeteOne{
+    grid-column: 1/1;
+    grid-row: 1;
+}
+#enTeteTwo{
+    grid-column: 2/2;
+    grid-row: 1;
+    font-size: large;
+    margin-top: 30px;
+    text-align: center;
+}
+#enTeteThree{
+    grid-column: 8/8;
+    grid-row: 1;
+    color: rgb(216, 43, 43);
+    size: 1em;
 }
 
 #enTete img{
@@ -15,8 +30,13 @@
 }
 
 #menu{
-    padding: 30px;
+    padding: 10px;
     background: rgb(1, 0, 0);
+}
+#menu a {
+    margin-right: 40px;
+    margin-left: 60px;
+    color: white;
 }
 body{
     background-color: rgba(255, 247, 205, 0.128);
