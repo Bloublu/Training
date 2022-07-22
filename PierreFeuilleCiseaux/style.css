@@ -1,0 +1,25 @@
+html, body {  
+    background: -webkit-linear-gradient(to right, #6fdfdf, #11424c);
+    background: linear-gradient(to right, #6fdfdf, #11424c);
+    min-width: 500px;
+}
+
+  #results {
+    
+    padding: 15px;
+    margin: 10px 0;
+    color: white;
+    size: 3em;
+  }
+  
+  .plus {
+    background-color: #ef4253;
+  }
+  
+  .moins {
+    background-color: #ffa372;
+  }
+  
+  .fini {
+    background-color : #0c9463;
+  }
