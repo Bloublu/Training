@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Pierre Feuille Ciseaux</title>
+    <title>Chifoumi</title>
 </head>
 <body>
-    <h1>Qui n'aime pas jouer au jeu 'Pierre Feuille Ciseaux'</h1>
-    <p>Choisi ton arme : </p>
     <div>
-        <img id='Pierre' src="./images/pierre.png" alt="Pierre" style="width: 200px;">
-        <img id="Feuille" src="./images/feuille.png" alt="Feuille" style="width: 200px;">
-        <img id="Ciseau" src="./images/ciseau.png" alt="Ciseaux" style="width: 200px;">
+        <h2>Qui n'aime pas jouer au jeu 'Pierre Feuille Ciseaux'</h2>
+        <button  id="boutonRejouer" type="button" onclick="location.reload()">--Rejouer--</button>
     </div>
-    
-    <h1 id="results"></h1>
-    
+    <div id="Selection">
+        <img id='Pierre' src="./images/pierre.png" alt="Pierre" style="width: 180px;">
+        <img id="Feuille" src="./images/feuille.png" alt="Feuille" style="width: 180px;">
+        <img id="Ciseau" src="./images/ciseau.png" alt="Ciseaux" style="width: 180px;">
+    </div>
+    <div id="affichageResultat">
+        <div id="pictureUser"></div>
+        <div id="pictureFleche"></div>
+        <div id="pictureOrdi"></div>
+        <h1 id="results"></h1>
+    </div>
 <script src="exemple.js"></script>
 </body>
 </html>

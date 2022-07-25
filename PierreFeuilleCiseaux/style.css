@@ -1,25 +1,58 @@
 html, body {  
-    background: -webkit-linear-gradient(to right, #6fdfdf, #11424c);
-    background: linear-gradient(to right, #6fdfdf, #11424c);
-    min-width: 500px;
+  background: radial-gradient(red, blue);
 }
 
-  #results {
-    
-    padding: 15px;
-    margin: 10px 0;
-    color: white;
-    size: 3em;
-  }
-  
-  .plus {
-    background-color: #ef4253;
-  }
-  
-  .moins {
-    background-color: #ffa372;
-  }
-  
-  .fini {
-    background-color : #0c9463;
-  }
+h1{
+  text-align: center;
+  color: white;
+}
+
+button{
+  height: 30px;
+  width: 400px;
+  margin-left: 420px;
+  background-color: darkturquoise;
+}
+
+#Selection{
+  text-align: center;
+}
+
+#Selection img{
+  margin: 20px;
+}
+
+#affichageResultat{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+
+}
+
+#pictureUser{
+  grid-column: 4/5;
+  grid-row: 1;
+  color: white;
+}
+
+#pictureFleche{
+  grid-column: 6/6;
+  grid-row: 1;
+  padding-top: 90px;
+
+}
+
+#pictureOrdi{
+  grid-column: 7/8;
+  grid-row: 1;
+  color: white;
+}
+
+#results {
+  grid-column: 3/9;
+  grid-row: 2;
+  text-align: center;
+  padding: 15px;
+  margin: 10px 0;
+  color: white;
+  size: 3em;
+}
