@@ -1,4 +1,5 @@
 // nos variables
+
 let input        = document.querySelector('#prix');
 let error        = document.querySelector('small');
 let formulaire   = document.querySelector('#formulaire');
@@ -8,8 +9,8 @@ error.style.display ='none';
 
 let nbAleatoire = Math.floor(Math.random() * 1001);
 console.log(nbAleatoire);
-// nos fonctions
 
+// nos fonctions
 
 function verifier(nbchoisi){
     let instruction = document.createElement('div');
@@ -32,6 +33,7 @@ function verifier(nbchoisi){
 
 
 // nos evenements
+
 input.addEventListener('keyup', () => {
     if(isNaN(input.value)){
         error.style.display ='inline';
