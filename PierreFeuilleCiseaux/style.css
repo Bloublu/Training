@@ -12,6 +12,7 @@ button{
   width: 400px;
   margin-left: 420px;
   border-color: rgb(237, 133, 133);
+  border-radius: 20px;
   background-color: rgb(240, 68, 68);
 }
 
@@ -57,4 +58,16 @@ button{
   margin: 10px 0;
   color: white;
   size: 3em;
+}
+
+.ciseau{
+  border-radius: 100px;
+}
+
+.pierre{
+  border-radius: 100px;
+}
+
+.feuille{
+  border-radius: 100px;
 }

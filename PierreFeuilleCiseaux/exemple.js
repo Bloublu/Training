@@ -127,18 +127,21 @@ function resultat(choixOrdi, choixUser){
 pierre.addEventListener('click', evenPierre);
 function evenPierre(){
     pierre.style.border = '0.5rem solid darkturquoise';
+    pierre.className ='pierre';
     choixUser = maListe[0];
     resultat(choixOrdi, choixUser);
 };
 feuille.addEventListener('click', evenFeuille);
 function evenFeuille(){
     feuille.style.border = '0.5rem solid darkturquoise';
+    feuille.className ='feuille';
     choixUser = maListe[1];
     resultat(choixOrdi, choixUser);
 };
 ciseau.addEventListener('click', evenCiseau);
 function evenCiseau(){
     ciseau.style.border = '0.5rem solid darkturquoise';
+    ciseau.className ='ciseau';
     choixUser = maListe[2];
     resultat(choixOrdi, choixUser);
 };
