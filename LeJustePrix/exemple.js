@@ -7,11 +7,11 @@ let nbchoisi;
 error.style.display ='none';
 
 let nbAleatoire = Math.floor(Math.random() * 1001);
-
+console.log(nbAleatoire);
 // nos fonctions
 
 
-function verifier(nchoisi){
+function verifier(nbchoisi){
     let instruction = document.createElement('div');
 
     if (nbchoisi < nbAleatoire){
