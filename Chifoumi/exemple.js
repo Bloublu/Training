@@ -1,3 +1,5 @@
+// nos variables
+
 let pierre = document.querySelector('#Pierre');
 let feuille = document.querySelector('#Feuille');
 let ciseau = document.querySelector('#Ciseau');
@@ -9,12 +11,15 @@ let rejouer = document.querySelector('#boutonRejouer');
 rejouer.style.display ='none';
 let choixUser;
 
-// creation de ma lste de choix et random pour choix de l'ordinateur
+// creation de ma liste de choix et random pour choix de l'ordinateur
 let maListe = new Array();
 maListe = ['Pierre', 'Feuille', 'Ciseaux'];
 let choix = Math.floor(Math.random()*maListe.length);
 var choixOrdi = maListe[choix];
 console.log(choixOrdi);
+
+
+// nos fonctions
 
 // fonction qui est appeler a la fin de resultat() et qui permet d'arreter le clic sur les autres choix du chifoumi
 function handler(){
@@ -123,6 +128,9 @@ function resultat(choixOrdi, choixUser){
     rejouer.style.display ='inline';
 
 };
+
+
+// nos evenements
 
 pierre.addEventListener('click', evenPierre);
 function evenPierre(){

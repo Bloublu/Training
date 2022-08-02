@@ -1,65 +1,85 @@
 html, body {  
-  background: radial-gradient(red, rgb(0, 0, 5));
+  background: radial-gradient(rgb(211, 1, 1), rgb(0, 0, 5)); 
+  background-size: 2000px 1000px;
 }
 
+/* Mise en place du GRID */
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto;
+}
+  .one{
+    grid-column: 1/11;
+    grid-row: 1;
+    margin: 10px;
+  }
+  .two{
+    grid-column: 1/11;
+    grid-row: 2;
+    text-align: center;
+    margin: 10px;
+  }
+  .three{
+    grid-column: 1/11;
+    grid-row: 3;
+    text-align: center;
+    margin: 10px;
+  }
+  .four{
+    grid-column: 1/11;
+    grid-row: 4;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .five{
+    grid-column: 1/11;
+    grid-row: 5;
+  }
+
+
+
 h2{
-  text-align: center;
   color: white;
+  text-align: center;
 }
 
 button{
   height: 30px;
   width: 400px;
-  margin-left: 420px;
   border-color: rgb(237, 133, 133);
   border-radius: 20px;
   background-color: rgb(240, 68, 68);
 }
 
-#Selection{
-  text-align: center;
-}
-
 #Selection img{
-  margin: 20px;
-}
-
-#affichageResultat{
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-
+  margin-right: 20px;
 }
 
 #pictureUser{
-  grid-column: 4/5;
-  grid-row: 1;
   color: white;
 }
 
 #pictureFleche{
-  grid-column: 5/6;
-  grid-row: 1;
   padding-top: 90px;
-  margin-left: 120px;
-
 }
 
 #pictureOrdi{
-  grid-column: 7/8;
-  grid-row: 1;
   color: white;
 }
 
+#pictureUser, #pictureOrdi, #pictureFleche {
+  display: inline-block;
+  vertical-align: top;
+}
+
 #results {
-  grid-column: 3/9;
-  grid-row: 2;
   text-align: center;
-  padding: 15px;
-  margin: 10px 0;
   color: white;
   size: 3em;
 }
 
+/* appel NameClass via exemple.js - apporte juste le border rond sur chaque image */
 .ciseau{
   border-radius: 100px;
 }

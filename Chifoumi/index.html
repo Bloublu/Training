@@ -8,20 +8,38 @@
     <title>Chifoumi</title>
 </head>
 <body>
-    <div>
-        <h2>Qui n'aime pas jouer au jeu 'Pierre Feuille Ciseaux'</h2>
-        <button  id="boutonRejouer" type="button" onclick="location.reload()"><b> --    Rejouer    -- </b></button>
-    </div>
-    <div id="Selection">
-        <img id='Pierre' src="./images/pierre.png" alt="Pierre" style="width: 180px;">
-        <img id="Feuille" src="./images/feuille.png" alt="Feuille" style="width: 180px;">
-        <img id="Ciseau" src="./images/ciseau.png" alt="Ciseaux" style="width: 180px;">
-    </div>
-    <div id="affichageResultat">
-        <div id="pictureUser"></div>
-        <div id="pictureFleche"></div>
-        <div id="pictureOrdi"></div>
-        <h1 id="results"></h1>
+    <div class="wrapper">
+
+        <div class="one">
+            <h2>Sauras-tu me battre au CHIFOUMI</h2>
+        </div>
+
+        <!-- Bouton autonaume pour rafraichir la page-->
+        <div class="two">
+            <button  id="boutonRejouer" type="button" onclick="location.reload()"><b> --    Rejouer    -- </b></button>
+        </div>
+
+        <!-- Bloque images avec evenement click pour choix user-->
+        <div class="three">
+            <div id="Selection">
+                <img id='Pierre' src="./images/pierre.png" alt="Pierre" style="width: 180px;">
+                <img id="Feuille" src="./images/feuille.png" alt="Feuille" style="width: 180px;">
+                <img id="Ciseau" src="./images/ciseau.png" alt="Ciseaux" style="width: 180px;">
+            </div>
+        </div>
+
+        <!-- Bloque DIV directement créé via exemple.js-->
+        <div class="four">
+            <div id="affichageResultat">
+                <div id="pictureUser"></div>
+                <div id="pictureFleche"></div>
+                <div id="pictureOrdi"></div>
+            </div>
+        </div>
+        <div class="five">
+            <h1 id="results"></h1>
+        </div>
+
     </div>
 <script src="exemple.js"></script>
 </body>
