@@ -9,6 +9,16 @@ html, body {
     text-align: center;
     font-size: 3em;
   }
+
+  #btn{
+    text-align: center;
+  }
+
+  button{
+    background-color: #ff7315;
+    border-color: #f6a168;
+    color: white;
+  }
   
   #instructions {
     color: white;

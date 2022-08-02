@@ -7,6 +7,9 @@ let coups = 0;
 let nbchoisi;
 error.style.display ='none';
 
+let rejouer = document.querySelector('#boutonRejouer');
+rejouer.style.display ='none';
+
 let nbAleatoire = Math.floor(Math.random() * 1001);
 console.log(nbAleatoire);
 
@@ -25,6 +28,7 @@ function verifier(nbchoisi){
         instruction.textContent ='tentative : '+ coups + ', vous avez choisi le nombre : ' + nbchoisi + ', c\'est GAGNE !!'
         instruction.className ='instruction fini';
         input.disabled = true;
+        rejouer.style.display ='inline';
     }
 
     document.querySelector('#instructions').prepend(instruction);
