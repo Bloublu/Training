@@ -1,0 +1,74 @@
+body {
+    background: #038d7f;
+    background: -webkit-linear-gradient(to right, #3e9f95, white);
+    background: linear-gradient(to right, #3e9f95, white);
+}
+
+.containerHeader {
+    display: flex;
+
+}
+
+h1 {
+    flex: auto;
+    text-align: center;
+    color: white;
+}
+
+.links {
+    float: right;
+}
+
+.links a {
+    margin: 20px;
+}
+
+
+.containerBody {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+embed {
+    flex: 3;
+}
+
+p {
+    flex: 2;
+    align-self:center;
+    margin: 20px;
+    text-align: justify;   
+}
+
+
+
+
+
+/* CSS pour info bulle 'contact' */
+.tooltip-text {
+    visibility: hidden;
+    position:absolute;
+    z-index: 2;
+    width: 350px;
+    color: white;
+    font-size: 20px;
+    background-color: #192733;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+  }
+  .hover-text:hover .tooltip-text {
+    visibility: visible;
+  }
+  .hover-text {
+    position: relative;
+    display: contents;
+    margin: 40px;
+    font-family: Avenir;
+    text-align: center;
+  }
+  #top {
+    top: 620px;
+    left: 60%;
+  }
+  
